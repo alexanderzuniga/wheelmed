@@ -1,0 +1,49 @@
+.re_projects-config-form
+{
+	margin: 0;
+}
+.re_projects-config-form .form-table
+{
+	margin: 0;
+}
+.re_projects-config-form .re_projects-form-table-container
+{
+	width: 370px;
+	padding: 20px 30px;
+	background: #FFF;
+	margin-top: 30px;
+}
+.re_projects-config-form .form-table tr:first-child th, 
+.re_projects-config-form .form-table tr:first-child td 
+{
+    padding-top: 0;
+}
+.re_projects-config-form tr
+{
+	border-bottom: 1px solid #EFEFEF;
+}
+.re_projects-config-form tr.no-border
+{
+	border-bottom: none;
+}
+.re_projects-config-form tr.no-border th
+{
+	padding-bottom: 0;
+}
+.re_projects-config-form th,
+.re_projects-config-form td
+{
+	vertical-align: middle;
+	padding-left: 0;
+	padding-right: 0;
+}
+.re_projects-config-form .regular-text.input-full-width
+{
+	float: right;
+	width: 155px;
+}
+.re_projects-settings-section div.settings-error
+{
+	margin-top: 15px;
+	max-width: 1160px;
+}
