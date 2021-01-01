@@ -67,8 +67,8 @@ function re_theme_after_setup_theme()
 		$theme_options = array(
 			"favicon_url" => get_template_directory_uri() . "/images/favicon.ico",
 			"logo_url" => "",
-			"logo_text" => "RENOVATE",
-			"footer_text" => sprintf(__('© Copyright 2020 <a target="_blank" title="%s" href="%s" rel="nofollow">Renovate Theme</a> by <a target="_blank" title="%s" href="%s">QuanticaLabs</a>', 'renovate'), esc_html__('Renovate Theme', 'renovate'), esc_url(__('https://1.envato.market/renovate-construction-renovation-wordpress-theme', 'renovate')), esc_html__('QuanticaLabs', 'renovate'), esc_url(__('http://quanticalabs.com', 'renovate'))),
+			"logo_text" => "COLORNEW",
+			"footer_text" => sprintf(__('© Copyright 2020 COLORNEW THEME by <a target="_blank" title="%s" href="%s">QuanticaLabs</a>', 'renovate'), esc_html__('COLORNEW THEME', 'renovate'), esc_url(__('https://1.envato.market/renovate-construction-renovation-wordpress-theme', 'renovate')), esc_html__('QuanticaLabs', 'renovate'), esc_url(__('http://quanticalabs.com', 'renovate'))),
 			"sticky_menu" => 0,
 			"responsive" => 1,
 			"scroll_top" => 1,
@@ -203,7 +203,7 @@ function re_theme_after_setup_theme()
 	add_theme_support("title-tag");
 	
 	//gutenberg
-	add_theme_support("wp-block-styles");
+	add_theme_support("wp-block-st/yles");
 	add_theme_support("align-wide");
 	add_theme_support("editor-color-palette", array(
 		array(
