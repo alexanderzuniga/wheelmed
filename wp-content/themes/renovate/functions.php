@@ -325,25 +325,25 @@ function re_theme_switch_theme($theme_template)
 add_action("switch_theme", "re_theme_switch_theme");
 
 /* --- phpMailer config --- */
-function re_phpmailer_init(PHPMailer $mail) 
-{
-	global $theme_options;
-	$mail->CharSet='UTF-8';
+// function re_phpmailer_init(PHPMailer $mail) 
+// {
+// 	global $theme_options;
+// 	$mail->CharSet='UTF-8';
 	
-	$smtp = $theme_options["cf_smtp_host"];
-	if(!empty($smtp))
-	{
-		$mail->IsSMTP();
-		$mail->SMTPAuth = true; 
-		//$mail->SMTPDebug = 2;
-		$mail->Host = $theme_options["cf_smtp_host"];
-		$mail->Username = $theme_options["cf_smtp_username"];
-		$mail->Password = $theme_options["cf_smtp_password"];
-		if((int)$theme_options["cf_smtp_port"]>0)
-			$mail->Port = (int)$theme_options["cf_smtp_port"];
-		$mail->SMTPSecure = $theme_options["cf_smtp_secure"];
-	}
-}
+// 	$smtp = $theme_options["cf_smtp_host"];
+// 	if(!empty($smtp))
+// 	{
+// 		$mail->IsSMTP();
+// 		$mail->SMTPAuth = true; 
+// 		//$mail->SMTPDebug = 2;
+// 		$mail->Host = $theme_options["cf_smtp_host"];
+// 		$mail->Username = $theme_options["cf_smtp_username"];
+// 		$mail->Password = $theme_options["cf_smtp_password"];
+// 		if((int)$theme_options["cf_smtp_port"]>0)
+// 			$mail->Port = (int)$theme_options["cf_smtp_port"];
+// 		$mail->SMTPSecure = $theme_options["cf_smtp_secure"];
+// 	}
+// }
  
 function re_custom_template_for_vc() 
 {
